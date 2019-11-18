@@ -1,4 +1,7 @@
 {
+  "test1":{
+    "cant-invoices":5
+  },
   "posts": [
     {
       "id": 1,
