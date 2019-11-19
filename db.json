@@ -1,15 +1,25 @@
 {
-  "test1":{
-    "user" : "Hitman666",
-    "cant-invoices":5
-  },
-  "posts": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+   "test1":{
+      "user":"Hitman666",
+      "cant-invoices":5
+   },
+   "test2":{
+      "fixed":{
+         "status":"closed",
+         "reference":5
+      },
+      "flexible":{
+         "status":"shipped",
+         "reference":16
+      }
+   },
+   "posts":[
+      {
+         "id":1,
+         "title":"hello"
+      }
+   ],
+   "profile":{
+      "name":"typicode"
+   }
 }
