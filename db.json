@@ -3,15 +3,13 @@
       "user":"Hitman666",
       "cant-invoices":5
    },
-   "test2":{
-      "fixed":{
-         "status":"closed",
-         "reference":5
-      },
-      "flexible":{
-         "status":"shipped",
-         "reference":16
-      }
+   "fixed":{
+      "status":"closed",
+      "reference":5
+   },
+   "flexible":{
+      "status":"shipped",
+      "reference":16
    },
    "posts":[
       {
