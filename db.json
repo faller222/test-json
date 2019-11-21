@@ -1,7 +1,11 @@
 {
    "test1":{
       "user":"Bender666",
-      "cant-invoices":5
+      "cant-invoices":5,
+      "validate-info":[
+      { "valid":"true" },
+      { "valid":"false" }
+   ]
    },
    "fixed":{
       "status":"closed",
@@ -11,10 +15,6 @@
       "status":"shipped",
       "reference":16
    },
-   "validate-info":[
-      { "valid":"true" },
-      { "valid":"false" }
-   ],
    "posts":[
       {
          "id":1,
