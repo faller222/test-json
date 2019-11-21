@@ -11,6 +11,10 @@
       "status":"shipped",
       "reference":16
    },
+   "validate-info":[
+      { "valid":"true" },
+      { "valid":"false" }
+   ],
    "posts":[
       {
          "id":1,
