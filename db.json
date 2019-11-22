@@ -1,72 +1,85 @@
 {
-   "test1":{
-      "user":"Bender666",
-      "contact":{
-         "po-mail":"german.faller@basf.com",
-         "oo-user":"Pablo Fraga"
-      },
-      "valid":[
-         true,
-         false
-      ],
-      "po":{
-         "created":[
+    "test1":{
+        "user":[
+            "GFaller",
+            "PFraga",
+            "JCamou",
+            "JBuero",
+            "JRivas",
+            "LSoriano"
+        ],
+        "contact":{
+            "po-mail":"german.faller@basf.com",
+            "oo-user":[
+                "Pablo Fraga",
+                "German Faller",
+                "Juan Camou",
+                "Juan Buero",
+                "Agustin Echeverria"
+            ]
+        },
+        "valid":[
             true,
             false
-         ],
-         "released":[
+        ],
+        "po":{
+            "created":[
+                true,
+                false
+            ],
+            "released":[
+                true,
+                false
+            ]
+        },
+        "pr":{
+            "exists":[
+                true,
+                false
+            ],
+            "released":[
+                true,
+                false
+            ]
+        },
+        "three-day-term":[
             true,
             false
-         ]
-      },
-      "pr":{
-         "exists":[
+        ],
+        "delivery-date":[
             true,
             false
-         ],
-         "released":[
+        ],
+        "vendor-assigned":[
             true,
             false
-         ]
-      },
-      "three-day-term":[
-         true,
-         false
-      ],
-      "delivery-date":[
-         true,
-         false
-      ],
-      "vendor-assigned":[
-         true,
-         false
-      ],
-      "oa":{
-         "assigned":[
-            true,
-            false
-         ],
-         "exists":[
-            true,
-            false
-         ]
-      }
-   },
-   "fixed":{
-      "status":"closed",
-      "reference":5
-   },
-   "flexible":{
-      "status":"shipped",
-      "reference":16
-   },
-   "posts":[
-      {
-         "id":1,
-         "title":"hello"
-      }
-   ],
-   "profile":{
-      "name":"typicode"
-   }
+        ],
+        "oa":{
+            "assigned":[
+                true,
+                false
+            ],
+            "exists":[
+                true,
+                false
+            ]
+        }
+    },
+    "fixed":{
+        "status":"closed",
+        "reference":5
+    },
+    "flexible":{
+        "status":"shipped",
+        "reference":16
+    },
+    "posts":[
+        {
+            "id":1,
+            "title":"hello"
+        }
+    ],
+    "profile":{
+        "name":"typicode"
+    }
 }
