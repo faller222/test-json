@@ -1,11 +1,56 @@
 {
    "test1":{
       "user":"Bender666",
-      "cant-invoices":5,
-      "validate-info":[
-      { "valid":"true" },
-      { "valid":"false" }
-   ]
+      "contact":{
+         "po-mail":"german.faller@basf.com",
+         "oo-user":"Pablo Fraga"
+      },
+      "valid":[
+         true,
+         false
+      ],
+      "po":{
+         "created":[
+            true,
+            false
+         ],
+         "released":[
+            true,
+            false
+         ]
+      },
+      "pr":{
+         "exists":[
+            true,
+            false
+         ],
+         "released":[
+            true,
+            false
+         ]
+      },
+      "three-day-term":[
+         true,
+         false
+      ],
+      "delivery-date":[
+         true,
+         false
+      ],
+      "vendor-assigned":[
+         true,
+         false
+      ],
+      "oa":{
+         "assigned":[
+            true,
+            false
+         ],
+         "exists":[
+            true,
+            false
+         ]
+      }
    },
    "fixed":{
       "status":"closed",
