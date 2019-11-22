@@ -75,8 +75,12 @@
     },
     "posts":[
         {
-            "id":1,
+            "id":"title",
             "title":"hello"
+        },
+		{
+            "id":"user",
+            "user":"saaasd"
         }
     ],
     "profile":{
